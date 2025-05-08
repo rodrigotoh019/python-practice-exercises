@@ -58,7 +58,10 @@ import math
 
 # personal_info = {'Name': 'John Doe', 'Address': '123 Test Street, NY, 10000', "Phone": '123-456-7890', 'College Major': 'MBA'}
 #
-# print('Name: \t\t' + personal_info['Name'].title())
+# print(f'Name: \t {personal_info['Name'].title()}')
+# print(f'Address: {personal_info['Address'].title()}')
+# print(f'Phone:\t {personal_info['Phone']}')
+# print(f'Major:\t {personal_info['College Major']}')
 
 # projected_total_sales = int(input('What''s the projected amount of total sales this year? : \t'))
 # percent = 0.23 * projected_total_sales
@@ -78,14 +81,13 @@ import math
 
 # I know this is a primitive way to do this. I also know you can do this much easier if loop is used instead of input() but I don't know that as of writing so this will do! The process of what I did is so simple, you can deduce what I want to do lol
 
-# num = 3
-# numbers = []
+
 # x = int(input(f'How many numbers do you want to enter? '))
-# for i in range(1, num + 1):
-#     inp = float(input(f'Enter number #{i}: '))
-#     numbers.append(inp)
+# numbers = []
+# for i in range(1, x + 1):
+#     numbers.append(float(input(f'Enter number #{i}: ')))
 # add = int(sum(numbers))
-# ave = add / 3
+# ave = add / len(numbers)
 # print(f'Sum: {add}\nAverage: {ave:.1f}')
 
 # num_items = 5			# Define the number of items
@@ -152,11 +154,11 @@ import math
 # weight = float(input('Weight: '))
 # unit = input('(L)bs or (K)g: ')
 # if unit.upper() == 'L':
-#     converted = weight * 0.45
+#     converted = weight * 0.45359237
 #     print(f'You are {converted} kilos')
 # else:
-#     converted = weight * 2.2
-#     print(f'You are {converted} pounds')
+#     converted = weight / 0.45359237
+#     print(f'You are {converted:.2f} pounds')
 
 # Ganito dapat, sa unit kukuha ng ifelse tapos .upper ung sagot dun sa upper or lower case na isasagot ng user
 # Ung weight na ilalagay ng user, sa convertion lang sya magagamit.
@@ -174,8 +176,8 @@ import math
 # for i in range(1, e +1):
 #     nums = int(input(f'Enter #{i}: '))
 #     num.append(nums)
-#     prod = prod * i
-# print(f'Product: {prod * num}')
+#     prod = prod * num
+# print(f'Product: {prod}')
 
 
 # number = int(input('Enter the number: '))
@@ -209,4 +211,3 @@ import math
 #     numbers = int(input(f'Enter the #{i}: '))
 #     num.append(numbers)
 # print(f'Sum: {sum(num)}')
-
