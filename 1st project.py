@@ -100,8 +100,8 @@ from re import Match
 
 # sports = ("basketball", "volleyball", "football", "tennis")
 # while True:
-#     sport = input('Enter a sport:\t')
-#     if sport in sports:
+#     guess = input('Enter a sport:\t')
+#     if guess in sports:
 #         print(f'{sport}')
 #         break
 #     else:
