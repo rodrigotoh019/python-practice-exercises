@@ -53,7 +53,7 @@ This isn't just a homework dump — it's a timeline of my progress and a reflect
 
 ## 🔗 Related Project
 
-- [Student Grade Analyzer](https://github.com/rodrigotoh019/student-grade-analyzer): A Python app that collects student scores, filters pass/fail, and analyzes grade statistics with input validation.
+- [Student Grade Analyzer](https://github.com/rodrigotoh019/student_grade_analyzer_v1): A Python app that collects student scores, filters pass/fail, and analyzes grade statistics with input validation.
 
 ---
 
